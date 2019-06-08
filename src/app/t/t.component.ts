@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-t',
@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./t.component.scss']
 })
 export class TComponent implements OnInit {
+  t = 5;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
